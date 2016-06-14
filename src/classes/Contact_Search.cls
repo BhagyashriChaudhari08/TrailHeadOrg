@@ -5,5 +5,6 @@ public with sharing class Contact_Search {
 		Contact[] contactList = [Select Id, Name From Contact];
 		system.debug('---------'+contactList);
 		system.debug('---------'+contactList);
+		system.debug('---------'+contactList);
 	}
 }
