@@ -1,0 +1,53 @@
+<aura:component controller="PatientWrapperController" implements="force:appHostable,forceCommunity:availableForAllPageTypes">
+   <link href='/resource/Bootstrap/' rel="stylesheet"/>
+   
+   <aura:attribute name="patients" type="PatientWrapper[]"/>
+   <aura:attribute name="isSyncComplete" type="Boolean" default="FALSE" />
+   <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+   <!--<aura:registerEvent name="ATOEvent" type="c:ATOEvent" />	-->
+   <aura:handler event="aura:locationChange" action="{!c.locationChange}"/>
+   
+   <div class="col-md-12">
+   <div class="panel panel-default">
+	   <div class="panel-heading" style="background-color:CORNFLOWERBLUE; color:black;">
+           <h2 class="panel-title">Fitbit Patients Dashboard
+           <span style="padding-right:79%"></span>
+           <ui:button aura:id="refreshButton"
+				      label="Refresh" 
+                      press="{!c.refreshTable}"/>
+           </h2>
+	   </div>
+	   <div class="panel-body">
+			<table class="slds-table table table-bordered">
+				<thead>
+					<tr>
+						<th scope="col"><span class="slds-truncate">Name</span></th>
+						<th scope="col"><span class="slds-truncate">Steps Completed</span></th>
+						<th scope="col"><span class="slds-truncate">Goal</span></th>
+						<th scope="col"><span class="slds-truncate">Heart Rate</span></th>
+						<th scope="col"><span class="slds-truncate">Flag</span></th>
+					</tr>
+				</thead>
+				<tbody>
+					<aura:iteration items="{!v.patients}" var="patient">
+                        <tr>
+                            <!--<td>
+                        		<c:FitbitPatientViewer patient="{!patient}"/>
+                            </td>-->
+                        	<td><a aura:id="nameLink" href="{! '#patient/' + patient.patient_Id }">{!patient.name}</a></td>
+							<td>{!patient.steps}</td>
+							<td>{!patient.goal}</td>
+							<td>{!patient.heartRate}</td>
+							<td>
+								<c:FlagCalculator steps="{!patient.steps}" goal="{!patient.goal}"/>
+							</td>
+						</tr>
+                        
+					</aura:iteration>
+				</tbody>
+			</table>
+	    </div>
+   		</div>
+	</div>
+    
+</aura:component>

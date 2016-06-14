@@ -1,0 +1,8 @@
+<aura:component implements="force:appHostable,forceCommunity:availableForAllPageTypes">
+	<aura:attribute name="patient" type="PatientWrapper"/>
+ 	<aura:registerEvent name="patientDetailsEvent" type="c:FitbitGetPatientDetails"/>
+    
+  	<a href = "" 
+       onclick = "{!c.navigateToPatient}">{!v.patient.name}</a>
+ 	
+</aura:component>

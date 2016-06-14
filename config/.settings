@@ -1,0 +1,18 @@
+{
+    "projectName": "TrailHeadPocOrg",
+    "username": "bhagyashri.chaudhari@trailhead.com",
+    "id": "5adffa80-321c-11e6-82db-d5fae0252935",
+    "namespace": "",
+    "environment": "production",
+    "loginUrl": "https://login.salesforce.com/",
+    "workspace": "D:/roundCorner/TrailHeadOrg",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "ApexTrigger",
+        "AuraDefinitionBundle",
+        "CustomObject",
+        "StaticResource"
+    ]
+}

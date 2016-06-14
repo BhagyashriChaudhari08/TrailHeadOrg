@@ -1,0 +1,70 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p2800000537qrAAA",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p2800000537qrAAA",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 3
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "searchContacts",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "Contact_Search",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 2
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "contactName",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "Contact_Search",
+        "references": [],
+        "type": "Contact_Search"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 5
+            },
+            "modifiers": [],
+            "name": "contactList",
+            "references": [],
+            "type": "LIST"
+        }
+    ]
+}

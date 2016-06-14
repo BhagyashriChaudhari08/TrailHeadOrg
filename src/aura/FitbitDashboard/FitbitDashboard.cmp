@@ -1,0 +1,29 @@
+<aura:component controller="DashboardController" implements="force:appHostable,forceCommunity:availableForAllPageTypes">
+    <link href='/resource/Bootstrap/' rel="stylesheet"/>
+   <aura:attribute name="patients" type="List" />   
+   <aura:attribute name="flagList" type="List" />
+   <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+   <!-- Use the Apex model and controller to fetch server side data -->
+   <table class="slds-table table table-bordered">
+      <thead>
+        <tr>
+           <th scope="col"><span class="slds-truncate">Name</span></th>
+           <th scope="col"><span class="slds-truncate">Steps Completed</span></th>
+           <th scope="col"><span class="slds-truncate">Goal</span></th>
+           <th scope="col"><span class="slds-truncate">Flag</span></th>
+        </tr>
+      </thead>
+      <tbody>
+       <aura:iteration items="{!v.patients}" var="patient">
+         <tr>
+           <td><a href="{! '#patient/' + patient.Id }">{!patient.Full_Name__c}</a></td>                 
+           <td>{!patient.Steps_Completed__c}</td>
+           <td>{!patient.Goal__c}</td>
+           <td>
+               <c:FlagCalculator steps="{!patient.Steps_Completed__c}" goal="{!patient.Goal__c}"/>
+           </td>
+         </tr>
+       </aura:iteration>
+      </tbody>
+   </table>
+</aura:component>

@@ -1,0 +1,5 @@
+<apex:page showHeader="true" sidebar="true">
+	<apex:form id="mainForm">
+		<apex:commandButton action="{!save}" value="Save" id="theButton"/>
+	</apex:form>
+</apex:page>

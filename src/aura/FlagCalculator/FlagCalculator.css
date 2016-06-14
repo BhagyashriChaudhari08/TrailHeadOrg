@@ -1,0 +1,11 @@
+.THIS.uiButton {
+    width:60px;
+	height:25px;
+}
+
+.THIS.displayDivBlock {
+    display:block;
+}
+.THIS.hideDivBlock {
+    display:none;
+}

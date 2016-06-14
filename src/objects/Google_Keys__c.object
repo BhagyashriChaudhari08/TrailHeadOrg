@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Code</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>access_token__c</fullName>
+        <externalId>false</externalId>
+        <label>Access Token</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>client_id__c</fullName>
+        <defaultValue>&quot;448400875680-1c97kgejs0fg5mlsfq6r0g7i4lpgl275.apps.googleusercontent.com&quot;</defaultValue>
+        <externalId>false</externalId>
+        <label>Client Id</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>client_secret__c</fullName>
+        <defaultValue>&quot;fbRcOJwuGmw21VVed34_aFlo&quot;</defaultValue>
+        <externalId>false</externalId>
+        <label>Client Secret</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <label>Google Keys</label>
+    <visibility>Public</visibility>
+</CustomObject>

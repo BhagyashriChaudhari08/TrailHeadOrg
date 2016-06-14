@@ -1,0 +1,347 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p28000008W4KMAA0",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 49,
+                        "line": 5
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "getValue",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "WeatherForecasts",
+                    "type": null
+                }
+            ],
+            "name": "GetWeatherByPlaceNameResponse_elementFuture",
+            "namespace": null,
+            "parentClass": "System.WebServiceCalloutFuture",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 4
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "GetWeatherByPlaceNameResponse_elementFuture",
+                "references": [],
+                "type": "GetWeatherByPlaceNameResponse_elementFuture"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 67,
+                        "line": 6
+                    },
+                    "modifiers": [],
+                    "name": "response",
+                    "references": [],
+                    "type": "GetWeatherByPlaceNameResponse_element"
+                }
+            ]
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 49,
+                        "line": 11
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "getValue",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "WeatherForecasts",
+                    "type": null
+                }
+            ],
+            "name": "GetWeatherByZipCodeResponse_elementFuture",
+            "namespace": null,
+            "parentClass": "System.WebServiceCalloutFuture",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 10
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "GetWeatherByZipCodeResponse_elementFuture",
+                "references": [],
+                "type": "GetWeatherByZipCodeResponse_elementFuture"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 65,
+                        "line": 12
+                    },
+                    "modifiers": [],
+                    "name": "response",
+                    "references": [],
+                    "type": "GetWeatherByZipCodeResponse_element"
+                }
+            ]
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 81,
+                        "line": 22
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "beginGetWeatherByPlaceName",
+                    "parameters": [
+                        {
+                            "name": "continuation",
+                            "type": "Continuation"
+                        },
+                        {
+                            "name": "PlaceName",
+                            "type": "String"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "GetWeatherByPlaceNameResponse_elementFuture",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 79,
+                        "line": 39
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "beginGetWeatherByZipCode",
+                    "parameters": [
+                        {
+                            "name": "continuation",
+                            "type": "Continuation"
+                        },
+                        {
+                            "name": "ZipCode",
+                            "type": "String"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "GetWeatherByZipCodeResponse_elementFuture",
+                    "type": null
+                }
+            ],
+            "name": "AsyncWeatherForecastSoap",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 17
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "endpoint_x",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 35,
+                        "line": 18
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "inputHttpHeaders_x",
+                    "references": [],
+                    "type": "Map"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 19
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "clientCertName_x",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 20
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "timeout_x",
+                    "references": [],
+                    "type": "Integer"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 21
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "ns_map_type_info",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 16
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "AsyncWeatherForecastSoap",
+                "references": [],
+                "type": "AsyncWeatherForecastSoap"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 128,
+                        "line": 22
+                    },
+                    "modifiers": [],
+                    "name": "continuation",
+                    "references": [],
+                    "type": "Continuation"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 148,
+                        "line": 22
+                    },
+                    "modifiers": [],
+                    "name": "PlaceName",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 59,
+                        "line": 23
+                    },
+                    "modifiers": [],
+                    "name": "request_x",
+                    "references": [],
+                    "type": "GetWeatherByPlaceName_element"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 124,
+                        "line": 39
+                    },
+                    "modifiers": [],
+                    "name": "continuation",
+                    "references": [],
+                    "type": "Continuation"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 144,
+                        "line": 39
+                    },
+                    "modifiers": [],
+                    "name": "ZipCode",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 57,
+                        "line": 40
+                    },
+                    "modifiers": [],
+                    "name": "request_x",
+                    "references": [],
+                    "type": "GetWeatherByZipCode_element"
+                }
+            ]
+        }
+    ],
+    "interfaces": [],
+    "key": "01p28000008W4KMAA0",
+    "methods": [],
+    "name": "AsyncWeatherForecast",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 3
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "AsyncWeatherForecast",
+        "references": [],
+        "type": "AsyncWeatherForecast"
+    },
+    "variables": []
+}

@@ -1,0 +1,96 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 3
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "OpportunityDisplayAttachment",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p28000007cVyfAAE",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p28000007cVyfAAE",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 7
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "searchContacts",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "OpportunityDisplayAttachment",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 2
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "contactName",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "OpportunityDisplayAttachment",
+        "references": [],
+        "type": "OpportunityDisplayAttachment"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 4
+            },
+            "modifiers": [],
+            "name": "atmnt",
+            "references": [],
+            "type": "Attachment"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 9
+            },
+            "modifiers": [],
+            "name": "contactList",
+            "references": [],
+            "type": "LIST"
+        }
+    ]
+}

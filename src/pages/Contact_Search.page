@@ -1,0 +1,12 @@
+<apex:page controller="Contact_Search" sidebar="false">
+	<apex:form id="mainForm">
+	<apex:outputLink onclick="searchContacts('a');return false;">A|
+	</apex:outputLink>
+
+	<apex:actionFunction name="searchContacts" action="{!searchContacts}" rerender="Hi" >
+	<apex:param value="" assignTo="{!contactName}" name="contactName" />
+	</apex:actionFunction>
+
+	<apex:outputPanel id="Hi">HI</apex:outputPanel>
+	</apex:form>
+	</apex:page>

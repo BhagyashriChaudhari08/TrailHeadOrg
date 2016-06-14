@@ -1,0 +1,14 @@
+<aura:component implements="force:appHostable,forceCommunity:availableForAllPageTypes">
+
+	<aura:attribute name="steps" type="Integer"/>
+    <aura:attribute name="goal" type="Integer"/>
+    <aura:attribute name="redImageClass" type="String"/>
+    <aura:attribute name="yellowImageClass" type="String"/>
+    <aura:attribute name="greenImageClass" type="String"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+
+    <img src="/resource/warning" class="{!v.yellowImageClass}" style="height: 30px; width: 40px; "></img>
+     <img src="/resource/success" class="{!v.greenImageClass}"  style="height: 30px; width: 40px;"></img>
+     <img src="/resource/decline" class="{!v.redImageClass}"  style="height: 30px; width: 40px;"></img>
+     
+</aura:component>

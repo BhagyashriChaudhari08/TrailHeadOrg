@@ -1,0 +1,11 @@
+<aura:component controller="DashboardController" implements="force:appHostable,forceCommunity:availableForAllPageTypes">
+    <aura:attribute name="patientId" type="String"/>
+	<aura:attribute name="patient" type="Patient__c" default="{'sobjectType' : 'Patient__c'}"/>
+    <aura:handler event="aura:locationChange" action="{!c.locationChange}"/>
+    
+    <div>
+        <h1>{!v.patient.Full_Name__c}</h1>
+        <h3>{!v.patient.Gender__c}</h3>
+        <h3>{!v.patient.Height__c}</h3>
+    </div>
+</aura:component>

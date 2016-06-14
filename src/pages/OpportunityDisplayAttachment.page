@@ -1,0 +1,5 @@
+<apex:page controller="OpportunityDisplayAttachment" sidebar="false">
+    <apex:form id="mainForm">
+    <a href="{!URLFOR($Action.Attachment.Download, '00P280000057jfj')}" >View</a>
+    </apex:form>
+    </apex:page>

@@ -1,0 +1,46 @@
+<aura:component controller="PatientWrapperController" implements="force:appHostable,forceCommunity:availableForAllPageTypes">
+    <link href='/resource/Bootstrap/' rel="stylesheet"/>
+    
+    <aura:attribute name="patientId" type="String"/>
+    <aura:attribute name="className" type="String"/>
+    <aura:attribute name="patient" type="PatientWrapper"/>
+    
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <aura:handler event="c:FitbitGetPatientDetails" action="{!c.populatedetail}"/>
+    <aura:registerEvent name="NavigateToDashboardEvent" type="c:FitbitIntegration_NavigateToDashboard"/>
+    
+    <div class="{!v.className}" >
+        <div class="col-md-3" ></div>
+     <div aura:id="mainDivBlock"  class="col-md-6">
+	       <div class="panel panel-default">
+	           <div class="panel-heading" style="background-color:CORNFLOWERBLUE; color:black;">
+	               <!--<h1 class="panel-title" style="font-wight:bold">-->
+                   <h1 class="panel-title">{!v.patient.name} Details
+           	   	   <span style="padding-right:52%"></span>
+           		   <ui:button aura:id="refreshButton"
+				                  label="Back To Dashboard" 
+                                  press="{!c.navigateToDashboard}"/>
+                   </h1>
+	           </div>
+	           <div class="panel-body" style="padding-left:10%;">
+                    
+	                <h5><label style="width:40%">Steps Completed </label> 
+                        :  {!v.patient.steps}</h5>
+					
+					<h5><label style="width:40%">Goal </label> 
+                        :  {!v.patient.goal} </h5>
+					
+					<h5><label style="width:40%">Heart Rate </label> 
+                        :  {!v.patient.heartRate} BPM</h5>
+					
+					<h5><label style="width:40%">Height </label> 
+                        :  {!v.patient.height} "</h5>
+					
+					<h5><label style="width:40%">Weight </label> 
+                        :  {!v.patient.weight} Kg</h5>
+	           </div>
+	       </div>
+        </div>
+        <div class="col-md-3" ></div>
+    </div>
+</aura:component>

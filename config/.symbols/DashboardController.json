@@ -1,0 +1,77 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p28000008WYLoAAO",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p28000008WYLoAAO",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 3
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getPatients",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 16
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "findPatientById",
+            "parameters": [
+                {
+                    "name": "patientId",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "Patient__c",
+            "type": null
+        }
+    ],
+    "name": "DashboardController",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "DashboardController",
+        "references": [],
+        "type": "DashboardController"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 53,
+                "line": 16
+            },
+            "modifiers": [],
+            "name": "patientId",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}

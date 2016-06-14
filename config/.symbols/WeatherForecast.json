@@ -1,0 +1,1162 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p28000008W4KLAA0",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "GetWeatherByZipCode_element",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 5
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "ZipCode",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 6
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "ZipCode_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 7
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "apex_schema_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 8
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "field_order_type_info",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 4
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "GetWeatherByZipCode_element",
+                "references": [],
+                "type": "GetWeatherByZipCode_element"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "GetWeatherByPlaceName_element",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 11
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "PlaceName",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 12
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "PlaceName_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 13
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "apex_schema_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 14
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "field_order_type_info",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 10
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "GetWeatherByPlaceName_element",
+                "references": [],
+                "type": "GetWeatherByPlaceName_element"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "GetWeatherByZipCodeResponse_element",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 49,
+                        "line": 17
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "GetWeatherByZipCodeResult",
+                    "references": [],
+                    "type": "WeatherForecasts"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 18
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "GetWeatherByZipCodeResult_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 19
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "apex_schema_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 20
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "field_order_type_info",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 16
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "GetWeatherByZipCodeResponse_element",
+                "references": [],
+                "type": "GetWeatherByZipCodeResponse_element"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "WeatherForecasts",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 23
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "Latitude",
+                    "references": [],
+                    "type": "Double"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 24
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "Longitude",
+                    "references": [],
+                    "type": "Double"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 25
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "AllocationFactor",
+                    "references": [],
+                    "type": "Double"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 26
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "FipsCode",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 27
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "PlaceName",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 28
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "StateCode",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 29
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "Status",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 51,
+                        "line": 30
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "Details",
+                    "references": [],
+                    "type": "ArrayOfWeatherData"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 31
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "Latitude_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 32
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "Longitude_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 33
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "AllocationFactor_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 34
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "FipsCode_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 35
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "PlaceName_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 36
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "StateCode_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 37
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "Status_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 38
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "Details_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 39
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "apex_schema_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 40
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "field_order_type_info",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 22
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "WeatherForecasts",
+                "references": [],
+                "type": "WeatherForecasts"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "ArrayOfWeatherData",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 46,
+                        "line": 43
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "WeatherData",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 44
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "WeatherData_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 45
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "apex_schema_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 46
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "field_order_type_info",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 42
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "ArrayOfWeatherData",
+                "references": [],
+                "type": "ArrayOfWeatherData"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "WeatherData",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 49
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "Day",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 50
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "WeatherImage",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 51
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "MaxTemperatureF",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 52
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "MinTemperatureF",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 53
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "MaxTemperatureC",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 54
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "MinTemperatureC",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 55
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "Day_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 56
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "WeatherImage_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 57
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "MaxTemperatureF_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 58
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "MinTemperatureF_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 59
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "MaxTemperatureC_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 60
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "MinTemperatureC_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 61
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "apex_schema_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 62
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "field_order_type_info",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 48
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "WeatherData",
+                "references": [],
+                "type": "WeatherData"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "GetWeatherByPlaceNameResponse_element",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 49,
+                        "line": 65
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "GetWeatherByPlaceNameResult",
+                    "references": [],
+                    "type": "WeatherForecasts"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 66
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "GetWeatherByPlaceNameResult_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 67
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "apex_schema_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 68
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "field_order_type_info",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 64
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "GetWeatherByPlaceNameResponse_element",
+                "references": [],
+                "type": "GetWeatherByPlaceNameResponse_element"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 49,
+                        "line": 79
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "GetWeatherByPlaceName",
+                    "parameters": [
+                        {
+                            "name": "PlaceName",
+                            "type": "String"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "WeatherForecasts",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 49,
+                        "line": 100
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "GetWeatherByZipCode",
+                    "parameters": [
+                        {
+                            "name": "ZipCode",
+                            "type": "String"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "WeatherForecasts",
+                    "type": null
+                }
+            ],
+            "name": "WeatherForecastSoap",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 71
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "endpoint_x",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 35,
+                        "line": 72
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "inputHttpHeaders_x",
+                    "references": [],
+                    "type": "Map"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 35,
+                        "line": 73
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "outputHttpHeaders_x",
+                    "references": [],
+                    "type": "Map"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 74
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "clientCertName_x",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 75
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "clientCert_x",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 76
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "clientCertPasswd_x",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 77
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "timeout_x",
+                    "references": [],
+                    "type": "Integer"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 78
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "ns_map_type_info",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 70
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "WeatherForecastSoap",
+                "references": [],
+                "type": "WeatherForecastSoap"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 78,
+                        "line": 79
+                    },
+                    "modifiers": [],
+                    "name": "PlaceName",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 59,
+                        "line": 80
+                    },
+                    "modifiers": [],
+                    "name": "request_x",
+                    "references": [],
+                    "type": "GetWeatherByPlaceName_element"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 67,
+                        "line": 82
+                    },
+                    "modifiers": [],
+                    "name": "response_x",
+                    "references": [],
+                    "type": "GetWeatherByPlaceNameResponse_element"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 80,
+                        "line": 83
+                    },
+                    "modifiers": [],
+                    "name": "response_map_x",
+                    "references": [],
+                    "type": "Map"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 76,
+                        "line": 100
+                    },
+                    "modifiers": [],
+                    "name": "ZipCode",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 57,
+                        "line": 101
+                    },
+                    "modifiers": [],
+                    "name": "request_x",
+                    "references": [],
+                    "type": "GetWeatherByZipCode_element"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 65,
+                        "line": 103
+                    },
+                    "modifiers": [],
+                    "name": "response_x",
+                    "references": [],
+                    "type": "GetWeatherByZipCodeResponse_element"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 78,
+                        "line": 104
+                    },
+                    "modifiers": [],
+                    "name": "response_map_x",
+                    "references": [],
+                    "type": "Map"
+                }
+            ]
+        }
+    ],
+    "interfaces": [],
+    "key": "01p28000008W4KLAA0",
+    "methods": [],
+    "name": "WeatherForecast",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 3
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "WeatherForecast",
+        "references": [],
+        "type": "WeatherForecast"
+    },
+    "variables": []
+}

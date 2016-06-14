@@ -1,0 +1,614 @@
+[
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v34.0/tooling/sobjects/AuraDefinition/0Ad28000000IX0WCAW"
+        },
+        "Id": "0Ad28000000IX0WCAW",
+        "AuraDefinitionBundleId": "0Ab28000000H8XTCA0",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v34.0/tooling/sobjects/AuraDefinitionBundle/0Ab28000000H8XTCA0"
+            },
+            "DeveloperName": "setStartUrl"
+        },
+        "DefType": "EVENT",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v34.0/tooling/sobjects/AuraDefinition/0Ad28000000IX0XCAW"
+        },
+        "Id": "0Ad28000000IX0XCAW",
+        "AuraDefinitionBundleId": "0Ab28000000H8XUCA0",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v34.0/tooling/sobjects/AuraDefinitionBundle/0Ab28000000H8XUCA0"
+            },
+            "DeveloperName": "DemoNavigationComponent1"
+        },
+        "DefType": "COMPONENT",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v34.0/tooling/sobjects/AuraDefinition/0Ad28000000IX0YCAW"
+        },
+        "Id": "0Ad28000000IX0YCAW",
+        "AuraDefinitionBundleId": "0Ab28000000H8XVCA0",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v34.0/tooling/sobjects/AuraDefinitionBundle/0Ab28000000H8XVCA0"
+            },
+            "DeveloperName": "FitbitIntegration_NavigateToDashboard"
+        },
+        "DefType": "EVENT",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v34.0/tooling/sobjects/AuraDefinition/0Ad28000000IX0ZCAW"
+        },
+        "Id": "0Ad28000000IX0ZCAW",
+        "AuraDefinitionBundleId": "0Ab28000000H8XWCA0",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v34.0/tooling/sobjects/AuraDefinitionBundle/0Ab28000000H8XWCA0"
+            },
+            "DeveloperName": "FitbitIntegration_ComponentListView"
+        },
+        "DefType": "COMPONENT",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v34.0/tooling/sobjects/AuraDefinition/0Ad28000000IX0aCAG"
+        },
+        "Id": "0Ad28000000IX0aCAG",
+        "AuraDefinitionBundleId": "0Ab28000000H8XWCA0",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v34.0/tooling/sobjects/AuraDefinitionBundle/0Ab28000000H8XWCA0"
+            },
+            "DeveloperName": "FitbitIntegration_ComponentListView"
+        },
+        "DefType": "CONTROLLER",
+        "Format": "JS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v34.0/tooling/sobjects/AuraDefinition/0Ad28000000IX0bCAG"
+        },
+        "Id": "0Ad28000000IX0bCAG",
+        "AuraDefinitionBundleId": "0Ab28000000H8XWCA0",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v34.0/tooling/sobjects/AuraDefinitionBundle/0Ab28000000H8XWCA0"
+            },
+            "DeveloperName": "FitbitIntegration_ComponentListView"
+        },
+        "DefType": "HELPER",
+        "Format": "JS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v34.0/tooling/sobjects/AuraDefinition/0Ad28000000IX0cCAG"
+        },
+        "Id": "0Ad28000000IX0cCAG",
+        "AuraDefinitionBundleId": "0Ab28000000H8XWCA0",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v34.0/tooling/sobjects/AuraDefinitionBundle/0Ab28000000H8XWCA0"
+            },
+            "DeveloperName": "FitbitIntegration_ComponentListView"
+        },
+        "DefType": "STYLE",
+        "Format": "CSS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v34.0/tooling/sobjects/AuraDefinition/0Ad28000000IX0dCAG"
+        },
+        "Id": "0Ad28000000IX0dCAG",
+        "AuraDefinitionBundleId": "0Ab28000000H8XXCA0",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v34.0/tooling/sobjects/AuraDefinitionBundle/0Ab28000000H8XXCA0"
+            },
+            "DeveloperName": "PatientWrapperClass"
+        },
+        "DefType": "COMPONENT",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v34.0/tooling/sobjects/AuraDefinition/0Ad28000000IX0eCAG"
+        },
+        "Id": "0Ad28000000IX0eCAG",
+        "AuraDefinitionBundleId": "0Ab28000000H8XXCA0",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v34.0/tooling/sobjects/AuraDefinitionBundle/0Ab28000000H8XXCA0"
+            },
+            "DeveloperName": "PatientWrapperClass"
+        },
+        "DefType": "CONTROLLER",
+        "Format": "JS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v34.0/tooling/sobjects/AuraDefinition/0Ad28000000IX0fCAG"
+        },
+        "Id": "0Ad28000000IX0fCAG",
+        "AuraDefinitionBundleId": "0Ab28000000H8XXCA0",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v34.0/tooling/sobjects/AuraDefinitionBundle/0Ab28000000H8XXCA0"
+            },
+            "DeveloperName": "PatientWrapperClass"
+        },
+        "DefType": "HELPER",
+        "Format": "JS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v34.0/tooling/sobjects/AuraDefinition/0Ad28000000IX0gCAG"
+        },
+        "Id": "0Ad28000000IX0gCAG",
+        "AuraDefinitionBundleId": "0Ab28000000H8XXCA0",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v34.0/tooling/sobjects/AuraDefinitionBundle/0Ab28000000H8XXCA0"
+            },
+            "DeveloperName": "PatientWrapperClass"
+        },
+        "DefType": "STYLE",
+        "Format": "CSS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v34.0/tooling/sobjects/AuraDefinition/0Ad28000000IX0hCAG"
+        },
+        "Id": "0Ad28000000IX0hCAG",
+        "AuraDefinitionBundleId": "0Ab28000000H8XYCA0",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v34.0/tooling/sobjects/AuraDefinitionBundle/0Ab28000000H8XYCA0"
+            },
+            "DeveloperName": "Fitbit"
+        },
+        "DefType": "APPLICATION",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v34.0/tooling/sobjects/AuraDefinition/0Ad28000000IX0iCAG"
+        },
+        "Id": "0Ad28000000IX0iCAG",
+        "AuraDefinitionBundleId": "0Ab28000000H8XYCA0",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v34.0/tooling/sobjects/AuraDefinitionBundle/0Ab28000000H8XYCA0"
+            },
+            "DeveloperName": "Fitbit"
+        },
+        "DefType": "CONTROLLER",
+        "Format": "JS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v34.0/tooling/sobjects/AuraDefinition/0Ad28000000IX0jCAG"
+        },
+        "Id": "0Ad28000000IX0jCAG",
+        "AuraDefinitionBundleId": "0Ab28000000H8XYCA0",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v34.0/tooling/sobjects/AuraDefinitionBundle/0Ab28000000H8XYCA0"
+            },
+            "DeveloperName": "Fitbit"
+        },
+        "DefType": "HELPER",
+        "Format": "JS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v34.0/tooling/sobjects/AuraDefinition/0Ad28000000IX0kCAG"
+        },
+        "Id": "0Ad28000000IX0kCAG",
+        "AuraDefinitionBundleId": "0Ab28000000H8XZCA0",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v34.0/tooling/sobjects/AuraDefinitionBundle/0Ab28000000H8XZCA0"
+            },
+            "DeveloperName": "FitbitComponent"
+        },
+        "DefType": "COMPONENT",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v34.0/tooling/sobjects/AuraDefinition/0Ad28000000IX0lCAG"
+        },
+        "Id": "0Ad28000000IX0lCAG",
+        "AuraDefinitionBundleId": "0Ab28000000H8XaCAK",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v34.0/tooling/sobjects/AuraDefinitionBundle/0Ab28000000H8XaCAK"
+            },
+            "DeveloperName": "FitbitGetPatientDetails"
+        },
+        "DefType": "EVENT",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v34.0/tooling/sobjects/AuraDefinition/0Ad28000000IX0oCAG"
+        },
+        "Id": "0Ad28000000IX0oCAG",
+        "AuraDefinitionBundleId": "0Ab28000000H8XbCAK",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v34.0/tooling/sobjects/AuraDefinitionBundle/0Ab28000000H8XbCAK"
+            },
+            "DeveloperName": "FitbitDashboard"
+        },
+        "DefType": "HELPER",
+        "Format": "JS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v34.0/tooling/sobjects/AuraDefinition/0Ad28000000IX0mCAG"
+        },
+        "Id": "0Ad28000000IX0mCAG",
+        "AuraDefinitionBundleId": "0Ab28000000H8XbCAK",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v34.0/tooling/sobjects/AuraDefinitionBundle/0Ab28000000H8XbCAK"
+            },
+            "DeveloperName": "FitbitDashboard"
+        },
+        "DefType": "COMPONENT",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v34.0/tooling/sobjects/AuraDefinition/0Ad28000000IX0nCAG"
+        },
+        "Id": "0Ad28000000IX0nCAG",
+        "AuraDefinitionBundleId": "0Ab28000000H8XbCAK",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v34.0/tooling/sobjects/AuraDefinitionBundle/0Ab28000000H8XbCAK"
+            },
+            "DeveloperName": "FitbitDashboard"
+        },
+        "DefType": "CONTROLLER",
+        "Format": "JS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v34.0/tooling/sobjects/AuraDefinition/0Ad28000000IX0pCAG"
+        },
+        "Id": "0Ad28000000IX0pCAG",
+        "AuraDefinitionBundleId": "0Ab28000000H8XcCAK",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v34.0/tooling/sobjects/AuraDefinitionBundle/0Ab28000000H8XcCAK"
+            },
+            "DeveloperName": "FitbitPatientViewer"
+        },
+        "DefType": "COMPONENT",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v34.0/tooling/sobjects/AuraDefinition/0Ad28000000IX0qCAG"
+        },
+        "Id": "0Ad28000000IX0qCAG",
+        "AuraDefinitionBundleId": "0Ab28000000H8XcCAK",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v34.0/tooling/sobjects/AuraDefinitionBundle/0Ab28000000H8XcCAK"
+            },
+            "DeveloperName": "FitbitPatientViewer"
+        },
+        "DefType": "CONTROLLER",
+        "Format": "JS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v34.0/tooling/sobjects/AuraDefinition/0Ad28000000IX0rCAG"
+        },
+        "Id": "0Ad28000000IX0rCAG",
+        "AuraDefinitionBundleId": "0Ab28000000H8XdCAK",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v34.0/tooling/sobjects/AuraDefinitionBundle/0Ab28000000H8XdCAK"
+            },
+            "DeveloperName": "ATOEvent"
+        },
+        "DefType": "EVENT",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v34.0/tooling/sobjects/AuraDefinition/0Ad28000000IX0sCAG"
+        },
+        "Id": "0Ad28000000IX0sCAG",
+        "AuraDefinitionBundleId": "0Ab28000000H8XeCAK",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v34.0/tooling/sobjects/AuraDefinitionBundle/0Ab28000000H8XeCAK"
+            },
+            "DeveloperName": "FitbitIntegration"
+        },
+        "DefType": "APPLICATION",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v34.0/tooling/sobjects/AuraDefinition/0Ad28000000IX0tCAG"
+        },
+        "Id": "0Ad28000000IX0tCAG",
+        "AuraDefinitionBundleId": "0Ab28000000H8XfCAK",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v34.0/tooling/sobjects/AuraDefinitionBundle/0Ab28000000H8XfCAK"
+            },
+            "DeveloperName": "FitbitWrapperDetails"
+        },
+        "DefType": "COMPONENT",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v34.0/tooling/sobjects/AuraDefinition/0Ad28000000IX0uCAG"
+        },
+        "Id": "0Ad28000000IX0uCAG",
+        "AuraDefinitionBundleId": "0Ab28000000H8XfCAK",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v34.0/tooling/sobjects/AuraDefinitionBundle/0Ab28000000H8XfCAK"
+            },
+            "DeveloperName": "FitbitWrapperDetails"
+        },
+        "DefType": "CONTROLLER",
+        "Format": "JS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v34.0/tooling/sobjects/AuraDefinition/0Ad28000000IX0vCAG"
+        },
+        "Id": "0Ad28000000IX0vCAG",
+        "AuraDefinitionBundleId": "0Ab28000000H8XfCAK",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v34.0/tooling/sobjects/AuraDefinitionBundle/0Ab28000000H8XfCAK"
+            },
+            "DeveloperName": "FitbitWrapperDetails"
+        },
+        "DefType": "HELPER",
+        "Format": "JS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v34.0/tooling/sobjects/AuraDefinition/0Ad28000000IX0wCAG"
+        },
+        "Id": "0Ad28000000IX0wCAG",
+        "AuraDefinitionBundleId": "0Ab28000000H8XfCAK",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v34.0/tooling/sobjects/AuraDefinitionBundle/0Ab28000000H8XfCAK"
+            },
+            "DeveloperName": "FitbitWrapperDetails"
+        },
+        "DefType": "STYLE",
+        "Format": "CSS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v34.0/tooling/sobjects/AuraDefinition/0Ad28000000IX0xCAG"
+        },
+        "Id": "0Ad28000000IX0xCAG",
+        "AuraDefinitionBundleId": "0Ab28000000H8XgCAK",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v34.0/tooling/sobjects/AuraDefinitionBundle/0Ab28000000H8XgCAK"
+            },
+            "DeveloperName": "FitbitPatientDetails"
+        },
+        "DefType": "COMPONENT",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v34.0/tooling/sobjects/AuraDefinition/0Ad28000000IX0yCAG"
+        },
+        "Id": "0Ad28000000IX0yCAG",
+        "AuraDefinitionBundleId": "0Ab28000000H8XgCAK",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v34.0/tooling/sobjects/AuraDefinitionBundle/0Ab28000000H8XgCAK"
+            },
+            "DeveloperName": "FitbitPatientDetails"
+        },
+        "DefType": "CONTROLLER",
+        "Format": "JS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v34.0/tooling/sobjects/AuraDefinition/0Ad28000000IX0zCAG"
+        },
+        "Id": "0Ad28000000IX0zCAG",
+        "AuraDefinitionBundleId": "0Ab28000000H8XhCAK",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v34.0/tooling/sobjects/AuraDefinitionBundle/0Ab28000000H8XhCAK"
+            },
+            "DeveloperName": "FlagCalculator"
+        },
+        "DefType": "COMPONENT",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v34.0/tooling/sobjects/AuraDefinition/0Ad28000000IX11CAG"
+        },
+        "Id": "0Ad28000000IX11CAG",
+        "AuraDefinitionBundleId": "0Ab28000000H8XhCAK",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v34.0/tooling/sobjects/AuraDefinitionBundle/0Ab28000000H8XhCAK"
+            },
+            "DeveloperName": "FlagCalculator"
+        },
+        "DefType": "STYLE",
+        "Format": "CSS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v34.0/tooling/sobjects/AuraDefinition/0Ad28000000IX10CAG"
+        },
+        "Id": "0Ad28000000IX10CAG",
+        "AuraDefinitionBundleId": "0Ab28000000H8XhCAK",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v34.0/tooling/sobjects/AuraDefinitionBundle/0Ab28000000H8XhCAK"
+            },
+            "DeveloperName": "FlagCalculator"
+        },
+        "DefType": "CONTROLLER",
+        "Format": "JS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v34.0/tooling/sobjects/AuraDefinition/0Ad28000000IX12CAG"
+        },
+        "Id": "0Ad28000000IX12CAG",
+        "AuraDefinitionBundleId": "0Ab28000000H8XiCAK",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v34.0/tooling/sobjects/AuraDefinitionBundle/0Ab28000000H8XiCAK"
+            },
+            "DeveloperName": "DemoNavigationApp"
+        },
+        "DefType": "APPLICATION",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v34.0/tooling/sobjects/AuraDefinition/0Ad28000000IX13CAG"
+        },
+        "Id": "0Ad28000000IX13CAG",
+        "AuraDefinitionBundleId": "0Ab28000000H8XjCAK",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v34.0/tooling/sobjects/AuraDefinitionBundle/0Ab28000000H8XjCAK"
+            },
+            "DeveloperName": "FitbitIntegration_ComponentDetail"
+        },
+        "DefType": "COMPONENT",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v34.0/tooling/sobjects/AuraDefinition/0Ad28000000IX14CAG"
+        },
+        "Id": "0Ad28000000IX14CAG",
+        "AuraDefinitionBundleId": "0Ab28000000H8XjCAK",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v34.0/tooling/sobjects/AuraDefinitionBundle/0Ab28000000H8XjCAK"
+            },
+            "DeveloperName": "FitbitIntegration_ComponentDetail"
+        },
+        "DefType": "CONTROLLER",
+        "Format": "JS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v34.0/tooling/sobjects/AuraDefinition/0Ad28000000IX15CAG"
+        },
+        "Id": "0Ad28000000IX15CAG",
+        "AuraDefinitionBundleId": "0Ab28000000H8XjCAK",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v34.0/tooling/sobjects/AuraDefinitionBundle/0Ab28000000H8XjCAK"
+            },
+            "DeveloperName": "FitbitIntegration_ComponentDetail"
+        },
+        "DefType": "STYLE",
+        "Format": "CSS"
+    }
+]

@@ -1,0 +1,324 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p28000008WYLsAAO",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p28000008WYLsAAO",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 3
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getPatients",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 36
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getPatientsById",
+            "parameters": [
+                {
+                    "name": "patientId",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "PatientWrapper",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 72
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "sysncFitBitData",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        }
+    ],
+    "name": "PatientWrapperController",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "PatientWrapperController",
+        "references": [],
+        "type": "PatientWrapperController"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 4
+            },
+            "modifiers": [],
+            "name": "wcList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 5
+            },
+            "modifiers": [],
+            "name": "patientList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 19
+            },
+            "modifiers": [],
+            "name": "patient",
+            "references": [],
+            "type": "Patient__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 20
+            },
+            "modifiers": [],
+            "name": "wc",
+            "references": [],
+            "type": "PatientWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 57,
+                "line": 36
+            },
+            "modifiers": [],
+            "name": "patientId",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 38
+            },
+            "modifiers": [],
+            "name": "query",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 39
+            },
+            "modifiers": [],
+            "name": "patientList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 40
+            },
+            "modifiers": [],
+            "name": "wrapperObj",
+            "references": [],
+            "type": "PatientWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 42
+            },
+            "modifiers": [],
+            "name": "patient",
+            "references": [],
+            "type": "Patient__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 74
+            },
+            "modifiers": [],
+            "name": "query",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 76
+            },
+            "modifiers": [],
+            "name": "patientList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 77
+            },
+            "modifiers": [],
+            "name": "todaysDate",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 79
+            },
+            "modifiers": [],
+            "name": "patientListToUpdate",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 80
+            },
+            "modifiers": [],
+            "name": "patient",
+            "references": [],
+            "type": "Patient__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 81
+            },
+            "modifiers": [],
+            "name": "stepsCompleted",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 82
+            },
+            "modifiers": [],
+            "name": "url",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 83
+            },
+            "modifiers": [],
+            "name": "activityJson",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 84
+            },
+            "modifiers": [],
+            "name": "activityWrapper",
+            "references": [],
+            "type": "ActivityWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 86
+            },
+            "modifiers": [],
+            "name": "act",
+            "references": [],
+            "type": "Activities"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 98
+            },
+            "modifiers": [],
+            "name": "wcList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 100
+            },
+            "modifiers": [],
+            "name": "patient",
+            "references": [],
+            "type": "Patient__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 101
+            },
+            "modifiers": [],
+            "name": "wc",
+            "references": [],
+            "type": "PatientWrapper"
+        }
+    ]
+}
